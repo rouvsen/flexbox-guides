@@ -2,10 +2,9 @@ body {
     background-color: antiquewhite;
 }
 .container1 {
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     /* gap: 50px 10px; */
     /* column-gap: 100px; */
     /* align-items: last baseline; */
@@ -34,7 +33,7 @@ body {
 span {
     color: rgb(255, 255, 255);
 }
-/* #item-1 {
+#item-1 {
     flex-grow: 2;
 }
 #item-2 {
@@ -42,4 +41,4 @@ span {
 }
 #item-3 {
     flex-grow: 2;
-} */
+}
