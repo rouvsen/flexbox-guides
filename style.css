@@ -1,3 +1,45 @@
 body {
     background-color: antiquewhite;
 }
+.container1 {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* gap: 50px 10px; */
+    /* column-gap: 100px; */
+    /* align-items: last baseline; */
+    /* align-content: flex-end; */
+    /* align-content: flex-start; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* shorthand of flex-direction and flex-wrap => flex-flow */
+    /* flex-flow: row wrap; */
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+    /* align-self: flex-end; */
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 3px;
+    border-radius: 5px;
+    margin: 10px;
+}
+span {
+    color: rgb(255, 255, 255);
+}
+/* #item-1 {
+    flex-grow: 2;
+}
+#item-2 {
+    flex-grow: 2;
+}
+#item-3 {
+    flex-grow: 2;
+} */
